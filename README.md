@@ -10,6 +10,7 @@ const frontEndDeveloper = {
   tools: ["Sass", "TailwindCss", "Bootstrap"],
   funFact: "I can speak three programming languages fluently!",
 };
+```
 
 ## 🚀 What I Do
 
