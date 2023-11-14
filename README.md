@@ -5,6 +5,7 @@
 ```javascript
 const frontEndDeveloper = {
   name: "Ali Moradi",
+  birthday: "2006/Nov/04",
   pronouns: ["He", "Him"],
   code: ["HTML", "CSS", "JavaScript"],
   tools: ["Sass", "TailwindCss", "Bootstrap"],
@@ -25,5 +26,3 @@ const frontEndDeveloper = {
 - Youtube: [@AliDeWeb](https://youtube.com/@AliDeWeb?si=Rzkzl24UJgt0PP0f)
 - Twitter: [@AliDeWeb](https://x.com/AliDeWeb?s=09)
 - Telegram: [@AliDeWeb](https://t.me/AliDeWeb)
-
-
