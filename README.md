@@ -19,6 +19,10 @@ const frontEndDeveloper = {
 - Crafting pixels into beautiful user interfaces 🎨
 - Solving puzzles with lines of code as my sword 🧩
 
+## 👨‍💻 Skills
+
+<img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JS" width="30" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML" width="30" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="Css" width="30" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" alt="TailwindCss" width="30" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" alt="Bootstrap" width="30" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg" alt="Photoshop" width="30" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/premierepro-colored.svg" alt="PremierePro" width="30" />
+
 ## 📫 Let's Connect
 
 - Portfolio: [AliDeWeb](http://alideweb.freehost.io)
