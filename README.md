@@ -29,4 +29,3 @@ const frontEndDeveloper = {
 - Instagram: [@AliDeWeb](https://instagram.com/alideweb?igshid=MmVlMjlkMTBhMg==)
 - Youtube: [@AliDeWeb](https://youtube.com/@AliDeWeb?si=Rzkzl24UJgt0PP0f)
 - Twitter: [@AliDeWeb](https://x.com/AliDeWeb?s=09)
-- Telegram: [@AliDeWeb](https://t.me/AliDeWeb)
