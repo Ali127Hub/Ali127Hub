@@ -25,7 +25,7 @@ const frontEndDeveloper = {
 
 ## 📫 Let's Connect
 
-- Portfolio: [AliDeWeb](http://alideweb.freehost.io)
+- Portfolio: [AliDeWeb](https://alideweb.github.io/AliDeWeb/)
 - Instagram: [@AliDeWeb](https://instagram.com/alideweb?igshid=MmVlMjlkMTBhMg==)
 - Youtube: [@AliDeWeb](https://youtube.com/@AliDeWeb?si=Rzkzl24UJgt0PP0f)
 - Twitter: [@AliDeWeb](https://x.com/AliDeWeb?s=09)
