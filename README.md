@@ -9,7 +9,7 @@ const frontEndDeveloper = {
   pronouns: ["He", "Him"],
   code: ["HTML", "CSS", "JavaScript", "React", "TailwindCss", "Bootstrap"],
   tools: ["Sass", "TailwindCss", "Bootstrap"],
-  funFact: "I can speak three programming languages fluently!",
+  funFact: "Front-end development is like crafting magic spells for the web, transforming plain text into captivating interactive experiences.",
 };
 ```
 
