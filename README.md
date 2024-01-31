@@ -7,7 +7,7 @@ const frontEndDeveloper = {
   name: "Ali Moradi",
   birthday: "2006/Nov/04",
   pronouns: ["He", "Him"],
-  code: ["HTML", "CSS", "JavaScript"],
+  code: ["HTML", "CSS", "JavaScript", "React", "TailwindCss", "Bootstrap"],
   tools: ["Sass", "TailwindCss", "Bootstrap"],
   funFact: "I can speak three programming languages fluently!",
 };
