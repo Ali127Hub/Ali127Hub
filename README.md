@@ -8,9 +8,8 @@ const frontEndDeveloper = {
   birthday: "2006/Nov/04",
   pronouns: ["He", "Him"],
   code: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "TailwindCss", "Bootstrap"],
-  tools: ["Sass", "TailwindCss", "Bootstrap"],
-  funFact: "Front-end development is like crafting magic spells for the web,
-         transforming plain text into captivating interactive experiences.",
+  tools: ["React", "JavaScript", "TypeScript"],
+  funFact: "I Can Speak In 3 Programming Langueges... 😉😎",
 };
 ```
 
