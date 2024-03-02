@@ -142,8 +142,8 @@ table {
 
 /* Custom Styles */
 :root {
-   user-select: none;
-   
+  user-select: none;
+
   -webkit-tap-highlight-color: transparent;
   font-size: 62.5%;
 }
@@ -226,6 +226,24 @@ img {
 
   position: relative;
   top: 0.8rem;
+}
+
+.download-resume-btn {
+  width: max-content !important;
+  height: max-content !important;
+  position: unset !important;
+  color: #00d2d3;
+  padding: 0.4rem;
+  text-decoration: none;
+  border: 1px solid #00d2d3;
+  border-radius: 100%;
+
+  transition: all ease-in 150ms 20ms;
+}
+.download-resume-btn:hover {
+  background-color: #00d2d3;
+  color: #181818;
+  font-weight: bold;
 }
 
 /* Responsive */
