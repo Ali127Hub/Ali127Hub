@@ -1,13 +1,107 @@
-@import url("./reset.css");
-@import url("../libs/swiperjs/swper.min.css");
-@import url("./fonts.css");
-
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
-
+:root {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0.3vw;
+}
+::-webkit-scrollbar-track {
+  background-color: #2e2e2e;
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #414141;
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #7e7e7e;
+}
 body {
   background: #000;
+  font-family: "poppins";
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  background: #08080871;
+  backdrop-filter: blur(1.8rem);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  height: 82px;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 1.8rem;
+
+  &:hover {
+    color: #fff;
+  }
+}
+.nav-link {
+  color: #ddd;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.hire-btn {
+  color: #ddd;
+  text-decoration: none;
+  transition: all ease-in-out 150ms 20ms;
+  padding: 0.4rem 0.8rem;
+  background: #1b1b1b;
+  border-radius: 0.4rem;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.sec {
+  height: 100dvh;
+}
+
+.logo-img-wrapper {
+  width: 190px;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.tools-icon-wrapper {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 100%;
+  background-color: #07080a;
+  padding: 0.6rem;
+}
+.des {
+  width: 500px;
+}
+.socials-icons {
+  width: 38px;
+  height: 38px;
+}
+
+footer {
+  background-color: #08080871;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.footer-link {
+  color: #ddd !important;
+  text-decoration: none;
+  transition: all ease-in-out 150ms 20ms;
+
+  &:hover {
+    color: #fff;
+  }
 }
