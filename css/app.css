@@ -66,6 +66,9 @@ img {
 }
 
 .sec {
+  height: 50dvh;
+}
+.sec:first-child {
   height: 100dvh;
 }
 
