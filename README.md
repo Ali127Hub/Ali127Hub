@@ -7,7 +7,7 @@ const frontEndDeveloper = {
   name: "Ali Moradi",
   birthday: "2006/Nov/04",
   pronouns: ["He", "Him"],
-  code: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Redux"],
+  code: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "NodeJs"],
   tools: [
     "React-Hook-Form",
     "React-Bootstrap",
@@ -19,6 +19,7 @@ const frontEndDeveloper = {
     "ChartJs",
     "AosCss",
     "Lodash",
+    "Redux",
     "Axios",
     "Sass",
     "Npm",
@@ -38,7 +39,7 @@ const frontEndDeveloper = {
 
 ## 👨‍💻 Skills
 
-<img title="React" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" width="30" /> <img title="redux" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg" alt="Redux" width="30" /> <img title="JS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JS" width="30" /> <img title="TS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" alt="TS" width="30" /> <img title="HTML" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML" width="30" /> <img title="CSS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="Css" width="30" />
+<img title="React" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" width="30" /> <img title="redux" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg" alt="Redux" width="30" /> <img title="JS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JS" width="30" /> <img title="TS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" alt="TS" width="30" /> <img title="NodeJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" alt="React" width="30" /> <img title="HTML" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML" width="30" /> <img title="CSS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="Css" width="30" />
 
 ## 🐱‍🏍 Libs && Pkgs
 
