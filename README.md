@@ -3,7 +3,7 @@
 ## 💻 About Me
 
 ```javascript
-const frontEndDeveloper = {
+const FS_Developer = {
   name: "Ali Moradi",
   birthday: "2006/Nov/04",
   pronouns: ["He", "Him"],
