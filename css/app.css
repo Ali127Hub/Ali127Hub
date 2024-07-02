@@ -28,14 +28,23 @@ img {
   width: 100%;
   height: 100%;
 }
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
 
-.navbar {
-  background: #08080871;
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   backdrop-filter: blur(1.8rem);
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   height: 82px;
 }
+
 .navbar-brand {
   color: #fff;
   font-size: 1.8rem;
@@ -95,9 +104,17 @@ img {
 }
 
 footer {
-  background-color: #08080871;
+  background-color: #000;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 .footer-link {
   color: #ddd !important;
@@ -107,4 +124,32 @@ footer {
   &:hover {
     color: #fff;
   }
+}
+
+.slider {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.sec {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.social-wrapper {
+  height: max-content;
+}
+
+.social-wrapper img {
+  width: 32px !important;
+  height: 32px !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }

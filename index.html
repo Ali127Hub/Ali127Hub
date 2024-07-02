@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/app.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="stylesheet" href="./libs/aos/aos.css" />
   </head>
   <body>
     <header class="position-fixed top-0 start-0 end-0 z-3">
@@ -38,14 +37,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="#react">Tools</a>
               </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="./pdf/Resume.pdf"
-                  download="AliDeWeb's CV.pdf"
-                  >Resume</a
-                >
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="https://www.github.com/AliDeWeb"
                   >Portfolio</a
@@ -56,24 +48,9 @@
                   >Hire Me</a
                 >
               </li>
-              <li class="nav-item d-block d-lg-none">
-                <a
-                  class="hire-btn me-3"
-                  href="./pdf/Resume.pdf"
-                  download="AliDeWeb's CV.pdf"
-                  >CV</a
-                >
-              </li>
             </ul>
           </div>
-          <div class="d-lg-block d-none">
-            <a
-              class="hire-btn me-3"
-              href="./pdf/Resume.pdf"
-              download="AliDeWeb's CV.pdf"
-              >CV</a
-            >
-          </div>
+
           <div class="d-lg-block d-none">
             <a class="hire-btn" href="mailto:alimoradi0business@gmail.com"
               >Hire Me</a
@@ -83,8 +60,8 @@
       </nav>
     </header>
 
-    <main>
-      <div data-aos="fade-up" id="who-am-i" class="sec">
+    <main class="slider">
+      <section id="who-am-i" class="sec">
         <div class="container h-100">
           <div
             class="d-flex flex-column gap-5 text-white justify-content-center align-items-center h-100"
@@ -95,8 +72,8 @@
             <h1 class="my-name fs-2"></h1>
           </div>
         </div>
-      </div>
-      <div data-aos="fade-up" id="react" class="sec">
+      </section>
+      <section id="react" class="sec">
         <div class="container h-100">
           <div
             class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
@@ -114,8 +91,8 @@
             </p>
           </div>
         </div>
-      </div>
-      <div data-aos="fade-up" id="redux" class="sec">
+      </section>
+      <section id="redux" class="sec">
         <div class="container h-100">
           <div
             class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
@@ -133,8 +110,70 @@
             </p>
           </div>
         </div>
-      </div>
-      <div data-aos="fade-up" id="js" class="sec">
+      </section>
+      <section id="nodejs" class="sec">
+        <div class="container h-100">
+          <div
+            class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
+          >
+            <div class="tools-icon-wrapper p-4">
+              <img src="./imgs/nodejs.svg" alt="icon" />
+            </div>
+            <h2 class="mt-2">NodeJs</h2>
+            <p class="js-des des text-light-emphasis mt-3">
+              As an adept Node.js developer boasting a plethora of projects, my
+              proficiency in Node.js significantly enhances my capabilities.
+              Leveraging Node.js's asynchronous architecture and advanced
+              features, I ensure robustness and scalability in my applications.
+              My expertise in building resilient and responsive servers enables
+              me to deliver seamless user experiences and optimal performance.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="expressjs" class="sec">
+        <div class="container h-100">
+          <div
+            class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
+          >
+            <div class="tools-icon-wrapper p-4">
+              <img src="./imgs/express-js.png" alt="icon" />
+            </div>
+            <h2 class="mt-2">ExpressJs</h2>
+            <p class="js-des des text-light-emphasis mt-3">
+              As an experienced Express.js developer with a diverse portfolio of
+              projects, my mastery of this framework greatly amplifies my web
+              development capabilities. Utilizing the lightweight and efficient
+              structure of Express.js, I excel in creating fast and reliable web
+              applications. My proficiency in managing routes, middleware, and
+              building RESTful APIs allows me to deliver innovative and tailored
+              solutions to meet clients' needs.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="mongodb" class="sec">
+        <div class="container h-100">
+          <div
+            class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
+          >
+            <div class="tools-icon-wrapper p-4">
+              <img src="./imgs/mongodb.png" alt="icon" />
+            </div>
+            <h2 class="mt-2">MongoDB</h2>
+            <p class="js-des des text-light-emphasis mt-3">
+              As a skilled MongoDB developer with extensive project experience,
+              my proficiency in this NoSQL database significantly enhances my
+              capabilities. Utilizing MongoDB's advanced features, I ensure
+              scalable and secure data management. My expertise in data
+              modeling, query optimization, and advanced aggregation enables me
+              to provide robust and reliable solutions for various projects,
+              ensuring seamless user experiences.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="js" class="sec">
         <div class="container h-100">
           <div
             class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
@@ -142,7 +181,7 @@
             <div class="tools-icon-wrapper p-4">
               <img src="./imgs/js-icon.png" alt="icon" />
             </div>
-            <h2 class="mt-2">Js</h2>
+            <h2 class="mt-2">JavaScript</h2>
             <p class="js-des des text-light-emphasis mt-3">
               As a seasoned React developer with a robust portfolio, my mastery
               of JavaScript fuels my ability to innovate and deliver dynamic
@@ -152,8 +191,8 @@
             </p>
           </div>
         </div>
-      </div>
-      <div data-aos="fade-up" id="ts" class="sec">
+      </section>
+      <section id="ts" class="sec">
         <div class="container h-100">
           <div
             class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
@@ -161,7 +200,7 @@
             <div class="tools-icon-wrapper" style="padding: 2.4rem">
               <img src="./imgs/ts-icon.png" alt="icon" />
             </div>
-            <h2 class="mt-2">Ts</h2>
+            <h2 class="mt-2">TypeScript</h2>
             <p class="ts-des des text-light-emphasis mt-3">
               As an adept React developer boasting a plethora of projects, my
               proficiency in TypeScript enhances my capabilities. Through
@@ -172,8 +211,8 @@
             </p>
           </div>
         </div>
-      </div>
-      <div data-aos="fade-up" id="tailwindcss" class="sec">
+      </section>
+      <section id="tailwindcss" class="sec">
         <div class="container h-100">
           <div
             class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
@@ -192,8 +231,8 @@
             </p>
           </div>
         </div>
-      </div>
-      <div data-aos="fade-up" id="others" class="sec">
+      </section>
+      <section id="others" class="sec">
         <div class="container h-100">
           <div
             class="h-100 d-flex flex-column text-white justify-content-center align-items-center"
@@ -209,39 +248,25 @@
               flexibility and adaptability to tackle any project requirement,
               ensuring optimal solutions and remarkable user experiences.
             </p>
-
-            <span class="text-start des">Socials:</span>
-            <div
-              class="d-flex justify-content-start align-items-center des mt-2 gap-3"
-            >
-              <a href="https://Github.com/AliDeWeb">
-                <img
-                  class="socials-icons"
-                  src="./imgs/github_icon.png"
-                  alt="icon"
-                />
-              </a>
-              <a href="https://instagram.com/AliDeWeb">
-                <img
-                  class="socials-icons"
-                  src="./imgs/instagram_icon.png"
-                  alt="icon"
-                />
-              </a>
-              <a href="https://twitter.com/AliDeWeb">
-                <img
-                  class="socials-icons"
-                  src="./imgs/twitter_icon.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class="text-center">
+      <div
+        class="d-flex justify-content-center align-items-center mt-2 gap-3 social-wrapper"
+      >
+        <a href="https://Github.com/AliDeWeb">
+          <img src="./imgs/github_icon.png" alt="icon" />
+        </a>
+        <a href="https://instagram.com/AliDeWeb">
+          <img src="./imgs/instagram_icon.png" alt="icon" />
+        </a>
+        <a href="https://twitter.com/AliDeWeb">
+          <img src="./imgs/twitter_icon.png" alt="icon" />
+        </a>
+      </div>
       <div
         class="text-center p-3 text-white"
         style="background-color: rgba(0, 0, 0, 0.05)"
@@ -255,7 +280,6 @@
 
     <script src="./libs/bootstrap/bootstrap.js"></script>
     <script src="./libs/typewriter/typewriter.js"></script>
-    <script src="./libs/aos/aos.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>
