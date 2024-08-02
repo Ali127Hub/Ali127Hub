@@ -7,7 +7,7 @@ const FS_Developer = {
   name: "Ali Moradi",
   birthday: "2006/Nov/04",
   pronouns: ["He", "Him"],
-  code: ["JS", "TS", "ReactJs", "NextJs", "NodeJs", "ExpressJs", "HTML", "CSS" ],
+  code: ["JS", "TS", "ReactJs", "NextJs", "NodeJs", "NestJs", "ExpressJs", "HTML", "CSS" ],
   tools: [
     "React-Hook-Form",
     "React-Bootstrap",
@@ -39,7 +39,7 @@ const FS_Developer = {
 
 ## 👨‍💻 Skills
 
-<img title="NextJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" alt="NextJs" width="30" /> <img title="React" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" width="30" /> <img title="redux" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg" alt="Redux" width="30" /> <img title="JS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JS" width="30" /> <img title="TS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" alt="TS" width="30" /> <img title="NodeJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" alt="NodeJs" width="30" /> <img title="ExpressJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" alt="ExpressJs" width="30" /> <img title="HTML" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML" width="30" /> <img title="CSS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="Css" width="30" />
+<img title="NextJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" alt="NextJs" width="30" /> <img title="React" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" width="30" /> <img title="redux" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg" alt="Redux" width="30" /> <img title="JS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JS" width="30" /> <img title="TS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" alt="TS" width="30" /> <img title="NodeJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" alt="NodeJs" width="30" /> <img title="NestJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" alt="NestJs" width="30" /> <img title="ExpressJs" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" alt="ExpressJs" width="30" /> <img title="HTML" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML" width="30" /> <img title="CSS" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="Css" width="30" />
 
 ## 🐱‍🏍 Libs && Pkgs
 
