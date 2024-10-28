@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 What I Do:
 ☕ Transforming caffeine into code<br>🎨 Crafting pixels into beautiful user interfaces<br>🧩 Solving puzzles with lines of code as my sword
 
 
