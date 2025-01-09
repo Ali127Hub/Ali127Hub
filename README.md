@@ -10,7 +10,7 @@
 
 ## 💻 Tech Stack
 
-![TechStack](https://skillicons.dev/icons?i=javascript,typescript,html,css,tailwind,bootstrap,react,nextjs,redux,nodejs,nestjs,express,mongodb,mysql,mui,sass,bash,docker&perline=6)
+![TechStack](https://skillicons.dev/icons?i=javascript,typescript,html,css,tailwind,bootstrap,react,nextjs,redux,nodejs,nestjs,express,go,mongodb,mysql,mui,sass,bash,docker&perline=6)
 
 ## 📊 GitHub Stats
 
