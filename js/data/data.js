@@ -1,22 +1,22 @@
 export class Data {
   data = [
     {
-      title: "Next.js",
-      img: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
-      description:
-        "As a skilled Next.js developer with an impressive track record, my expertise in React and JavaScript empowers me to create innovative and dynamic web applications. By harnessing the power of JavaScript, I develop elegant and efficient solutions that enhance user experiences across various projects, showcasing my creativity and technical prowess.",
-    },
-    {
-      title: "React.js",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
-      description:
-        "As an experienced React.js developer, I leverage component-based architecture and modern JavaScript to build highly interactive, scalable, and maintainable web applications. My proficiency enables me to craft responsive interfaces that deliver seamless user experiences and meet complex business requirements with precision and innovation.",
-    },
-    {
       title: "TypeScript",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1200px-Typescript.svg.png",
       description:
         "With deep expertise in TypeScript, I ensure robust type safety and improved developer productivity across projects. By integrating TypeScript into large-scale applications, I enhance code quality, reduce bugs, and maintain clear contracts, ultimately fostering maintainable and efficient solutions that align with modern engineering standards.",
+    },
+    {
+      title: "Go",
+      img: "https://miro.medium.com/v2/resize:fit:600/1*i2skbfmDsHayHhqPfwt6pA.png",
+      description:
+        "As a proficient Go developer, I leverage Go's simplicity and performance to build highly concurrent and reliable backend services. My experience includes creating APIs, working with go routines and channels for efficient parallel processing, and delivering robust solutions that handle demanding workloads with minimal latency.",
+    },
+    {
+      title: "Bash",
+      img: "https://sps-lab.org/post/2024_windows_bash/featured.png",
+      description:
+        "With expertise in Bash scripting, I automate complex workflows, streamline server administration, and optimize deployment processes. My skills enable me to write clean and maintainable shell scripts that improve productivity, ensure consistency across environments, and reduce human error in critical operations.",
     },
     {
       title: "Node.js",
@@ -31,10 +31,22 @@ export class Data {
         "Leveraging NestJS, I design modular and scalable server-side applications using TypeScript. My expertise allows me to create well-structured APIs, implement dependency injection, and apply clean architecture principles, enabling robust solutions that are maintainable, testable, and aligned with enterprise-level standards.",
     },
     {
-      title: "GraphQL",
-      img: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+      title: "RabbitMQ",
+      img: "https://a.storyblok.com/f/153547/2400x2540/24777f0edc/rabbitmq-logo_best-for-rabbitmq-blog.png",
       description:
-        "With strong skills in GraphQL, I build flexible and performant APIs that enable clients to query precisely the data they need. By optimizing resolvers, designing efficient schemas, and applying best practices, I help teams accelerate development cycles and improve the developer experience across platforms.",
+        "With expertise in RabbitMQ, I architect resilient message-driven systems that facilitate decoupled communication between services. My skills enable me to implement reliable queues, configure exchanges, and monitor message flow, ensuring consistent data delivery and scalable processing pipelines.",
+    },
+    {
+      title: "Next.js",
+      img: "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+      description:
+        "As a skilled Next.js developer with an impressive track record, my expertise in React and JavaScript empowers me to create innovative and dynamic web applications. By harnessing the power of JavaScript, I develop elegant and efficient solutions that enhance user experiences across various projects, showcasing my creativity and technical prowess.",
+    },
+    {
+      title: "React.js",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+      description:
+        "As an experienced React.js developer, I leverage component-based architecture and modern JavaScript to build highly interactive, scalable, and maintainable web applications. My proficiency enables me to craft responsive interfaces that deliver seamless user experiences and meet complex business requirements with precision and innovation.",
     },
     {
       title: "PostgreSQL",
@@ -61,10 +73,10 @@ export class Data {
         "With hands-on experience in Redis, I design high-performance caching strategies, implement real-time data processing, and optimize application speed. My knowledge of data structures and pub/sub mechanisms enables me to build systems that handle high loads with exceptional responsiveness and stability.",
     },
     {
-      title: "RabbitMQ",
-      img: "https://a.storyblok.com/f/153547/2400x2540/24777f0edc/rabbitmq-logo_best-for-rabbitmq-blog.png",
+      title: "GraphQL",
+      img: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
       description:
-        "With expertise in RabbitMQ, I architect resilient message-driven systems that facilitate decoupled communication between services. My skills enable me to implement reliable queues, configure exchanges, and monitor message flow, ensuring consistent data delivery and scalable processing pipelines.",
+        "With strong skills in GraphQL, I build flexible and performant APIs that enable clients to query precisely the data they need. By optimizing resolvers, designing efficient schemas, and applying best practices, I help teams accelerate development cycles and improve the developer experience across platforms.",
     },
     {
       title: "WebSocket",
@@ -96,18 +108,6 @@ export class Data {
       description:
         "As an early adopter of Vitest, I write fast, reliable tests that integrate seamlessly with modern frontend workflows. My skills ensure thorough test coverage, improved code quality, and a smooth developer experience that accelerates continuous integration and delivery pipelines.",
     },
-    {
-      title: "Go",
-      img: "https://miro.medium.com/v2/resize:fit:600/1*i2skbfmDsHayHhqPfwt6pA.png",
-      description:
-        "As a proficient Go developer, I leverage Go's simplicity and performance to build highly concurrent and reliable backend services. My experience includes creating APIs, working with go routines and channels for efficient parallel processing, and delivering robust solutions that handle demanding workloads with minimal latency.",
-    },
-    {
-      title: "Bash",
-      img: "https://sps-lab.org/post/2024_windows_bash/featured.png",
-      description:
-        "With expertise in Bash scripting, I automate complex workflows, streamline server administration, and optimize deployment processes. My skills enable me to write clean and maintainable shell scripts that improve productivity, ensure consistency across environments, and reduce human error in critical operations.",
-    },
   ];
 
   render() {
@@ -136,7 +136,13 @@ export class Data {
       h2.textContent = el.title;
 
       const p = document.createElement("p");
-      p.classList.add("tailwindcss-des", "mt-3", "text-light-emphasis", "des");
+      p.classList.add(
+        "paraph",
+        "tailwindcss-des",
+        "mt-3",
+        "text-light-emphasis",
+        "des"
+      );
       p.textContent = el.description;
 
       const imageWrapper = document.createElement("div");
