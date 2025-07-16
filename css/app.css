@@ -127,14 +127,14 @@ footer {
 }
 
 .slider {
-  height: 100vh;
+  height: 100dvh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
 .sec {
-  height: 100vh;
+  height: 100dvh;
   scroll-snap-align: start;
   display: flex;
   justify-content: center;

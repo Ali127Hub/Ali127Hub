@@ -1,3 +1,7 @@
+import { Data } from "./data/data.js";
+
+const Slider = document.querySelector(".slider");
+
 window.addEventListener(`load`, () => {
   const myName = document.querySelector(".my-name");
   var typewriter = new Typewriter(myName, {
@@ -10,12 +14,14 @@ window.addEventListener(`load`, () => {
     .deleteAll()
     .typeString("A Creative FullStack Developer ;)")
     .start();
+
+  new Data().render();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll(".slide");
 
-  document.querySelector(".slider").addEventListener("scroll", () => {
+  Slider.addEventListener("scroll", () => {
     slides.forEach((slide) => {
       slide.getBoundingClientRect();
     });
