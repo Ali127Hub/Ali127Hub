@@ -1,16 +1,16 @@
 export class Data {
   data = [
     {
+      title: "Java",
+      img: "./imgs/java.png",
+      description:
+        "With solid experience in Java, I develop robust, secure, and high-performance backend applications. My knowledge spans across object-oriented design, multithreading, and JVM internals, enabling me to build scalable enterprise-grade solutions that meet industry standards.",
+    },
+    {
       title: "TypeScript",
       img: "./imgs/ts.png",
       description:
         "With deep expertise in TypeScript, I ensure robust type safety and improved developer productivity across projects. By integrating TypeScript into large-scale applications, I enhance code quality, reduce bugs, and maintain clear contracts, ultimately fostering maintainable and efficient solutions that align with modern engineering standards.",
-    },
-    {
-      title: "Go",
-      img: "./imgs/go.png",
-      description:
-        "As a proficient Go developer, I leverage Go's simplicity and performance to build highly concurrent and reliable backend services. My experience includes creating APIs, working with go routines and channels for efficient parallel processing, and delivering robust solutions that handle demanding workloads with minimal latency.",
     },
     {
       title: "Bash",
@@ -19,22 +19,16 @@ export class Data {
         "With expertise in Bash scripting, I automate complex workflows, streamline server administration, and optimize deployment processes. My skills enable me to write clean and maintainable shell scripts that improve productivity, ensure consistency across environments, and reduce human error in critical operations.",
     },
     {
-      title: "Node.js",
-      img: "./imgs/node.svg",
+      title: "Spring",
+      img: "./imgs/spring.svg",
       description:
-        "As a proficient Node.js developer, I architect performant backend systems and RESTful APIs that power scalable applications. My experience covers event-driven development, asynchronous programming, and integrating microservices to build reliable infrastructures that support high traffic and mission-critical functionality.",
+        "Specializing in the Spring ecosystem, I create clean, modular, and maintainable Java applications. From Spring Boot to Spring Data and Security, I build RESTful APIs and microservices with ease, leveraging dependency injection and convention-over-configuration to accelerate development and ensure scalability.",
     },
     {
       title: "NestJS",
       img: "./imgs/nest.svg",
       description:
         "Leveraging NestJS, I design modular and scalable server-side applications using TypeScript. My expertise allows me to create well-structured APIs, implement dependency injection, and apply clean architecture principles, enabling robust solutions that are maintainable, testable, and aligned with enterprise-level standards.",
-    },
-    {
-      title: "RabbitMQ",
-      img: "./imgs/rabbit.png",
-      description:
-        "With expertise in RabbitMQ, I architect resilient message-driven systems that facilitate decoupled communication between services. My skills enable me to implement reliable queues, configure exchanges, and monitor message flow, ensuring consistent data delivery and scalable processing pipelines.",
     },
     {
       title: "Next.js",
@@ -49,30 +43,6 @@ export class Data {
         "As an experienced React.js developer, I leverage component-based architecture and modern JavaScript to build highly interactive, scalable, and maintainable web applications. My proficiency enables me to craft responsive interfaces that deliver seamless user experiences and meet complex business requirements with precision and innovation.",
     },
     {
-      title: "PostgreSQL",
-      img: "./imgs/postgres.png",
-      description:
-        "As a PostgreSQL specialist, I architect relational databases that ensure data integrity, scalability, and optimized query performance. I design schemas, implement indexing strategies, and fine-tune configurations to deliver reliable and secure data solutions that meet demanding business needs.",
-    },
-    {
-      title: "MySQL",
-      img: "./imgs/mysql.png",
-      description:
-        "As an experienced MySQL developer, I design relational database schemas, optimize query performance, and ensure data consistency in mission-critical applications. My expertise includes indexing strategies, transaction management, and scaling solutions to meet demanding business requirements.",
-    },
-    {
-      title: "MongoDB",
-      img: "./imgs/mongodb.svg",
-      description:
-        "My proficiency in MongoDB empowers me to build flexible, document-oriented databases that handle diverse and rapidly changing data models. I implement efficient indexing, aggregation pipelines, and sharding strategies to support scalable applications requiring high availability and performance.",
-    },
-    {
-      title: "Redis",
-      img: "./imgs/redis.png",
-      description:
-        "With hands-on experience in Redis, I design high-performance caching strategies, implement real-time data processing, and optimize application speed. My knowledge of data structures and pub/sub mechanisms enables me to build systems that handle high loads with exceptional responsiveness and stability.",
-    },
-    {
       title: "GraphQL",
       img: "./imgs/graph.svg",
       description:
@@ -83,30 +53,6 @@ export class Data {
       img: "./imgs/socket.svg",
       description:
         "As a WebSocket developer, I build real-time communication features such as live updates, notifications, and collaborative tools. My experience allows me to design efficient protocols and manage connection states, delivering seamless interactive experiences across web and mobile platforms.",
-    },
-    {
-      title: "TailwindCSS",
-      img: "./imgs/tailwind.png",
-      description:
-        "Leveraging TailwindCSS, I craft visually appealing, fully responsive user interfaces with a utility-first approach that accelerates development workflows. My expertise ensures consistent design systems, maintainable codebases, and high-quality visual experiences aligned with modern web standards.",
-    },
-    {
-      title: "Storybook",
-      img: "./imgs/storybook.png",
-      description:
-        "With advanced experience in Storybook, I document and develop UI components in isolation, enabling teams to build, test, and share consistent design systems. This approach improves collaboration, streamlines development, and ensures that user interfaces remain reliable and cohesive.",
-    },
-    {
-      title: "Webpack",
-      img: "./imgs/webpack.png",
-      description:
-        "As a Webpack expert, I configure advanced build pipelines that optimize performance, enable code splitting, and ensure efficient asset management. My skills help create smooth development experiences and deliver high-quality, production-ready bundles tailored to complex frontend projects.",
-    },
-    {
-      title: "Vitest",
-      img: "./imgs/vitest.png",
-      description:
-        "As an early adopter of Vitest, I write fast, reliable tests that integrate seamlessly with modern frontend workflows. My skills ensure thorough test coverage, improved code quality, and a smooth developer experience that accelerates continuous integration and delivery pipelines.",
     },
   ];
 
