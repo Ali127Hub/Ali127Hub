@@ -1,6 +1,12 @@
 export class Data {
   data = [
     {
+      title: "Golang",
+      img: "./imgs/go.jpg",
+      description:
+        "With solid experience in Golang, I develop robust, secure, and high-performance backend applications. My knowledge spans across object-oriented design, multithreading, and JVM internals, enabling me to build scalable enterprise-grade solutions that meet industry standards.",
+    },
+    {
       title: "Java",
       img: "./imgs/java.png",
       description:
